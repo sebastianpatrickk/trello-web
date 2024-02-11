@@ -13,7 +13,7 @@ export default function SiteHeader() {
           <nav className="flex items-center space-x-2">
             <Link
               className={cn("", buttonVariants({ variant: "link" }))}
-              href="/login"
+              href="/signin"
             >
               Log in
             </Link>
