@@ -8,7 +8,9 @@ export default function SiteHeader() {
     <header className="sticky top-0 z-20 w-full border-b bg-background">
       {/* IMPLEMENT-LATER: Mobile nav */}
       <div className="container flex h-16 items-center">
-        <Logo />
+        <div className="hidden md:flex">
+          <Logo />
+        </div>
         <div className="flex flex-1 items-center justify-end space-x-4">
           <nav className="flex items-center space-x-2">
             <Link
