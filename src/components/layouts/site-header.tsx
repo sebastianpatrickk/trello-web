@@ -6,7 +6,7 @@ import { buttonVariants } from "../ui/button";
 export default function SiteHeader() {
   return (
     <header className="sticky top-0 z-20 w-full border-b bg-background">
-      {/* Mobile nav */}
+      {/* IMPLEMENT-LATER: Mobile nav */}
       <div className="container flex h-16 items-center">
         <Logo />
         <div className="flex flex-1 items-center justify-end space-x-4">
